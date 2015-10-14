@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Intel_SSA|Win32">
+      <Configuration>Intel_SSA</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Intel_SSA|x64">
+      <Configuration>Intel_SSA</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A69A9373-5474-43E3-A948-E70CC6A673C3}</ProjectGuid>
+    <RootNamespace>Master</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Intel_SSA|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>Intel C++ Compiler XE 13.0</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Intel_SSA|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>Intel C++ Compiler XE 13.0</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Intel_SSA|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Intel_SSA|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>11.0.50727.1</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)bin\$(Platform)\$(Configuration)\tmp\$(ProjectName)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)bin\$(Platform)\$(Configuration)\tmp\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Intel_SSA|Win32'">
+    <OutDir>$(SolutionDir)bin\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)bin\$(Configuration)\tmp\$(ProjectName)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Intel_SSA|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)bin\$(Platform)\$(Configuration)\tmp\$(ProjectName)\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(SolutionDir)bin\$(Platform)\$(Configuration)\</OutDir>
+    <IntDir>$(SolutionDir)bin\$(Platform)\$(Configuration)\tmp\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\libs\eigen-3.2.0;..\..\libs\ANN\include;..\..\libs\postgres;..\..\libs\pokereval\include;..\..\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;WIN32_LEAN_AND_MEAN;MASTER;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>secur32.lib;ws2_32.lib;ANN.lib;poker-eval.lib;libpqd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir);..\..\libs\postgres\x86\MTd;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\libs\eigen-3.2.0;..\..\libs\ANN\include;..\..\libs\postgres;..\..\libs\pokereval\include;..\..\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;WIN32_LEAN_AND_MEAN;MASTER;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>EnableAllWarnings</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>secur32.lib;ws2_32.lib;ANN.lib;poker-eval.lib;libpqd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir);..\..\libs\postgres\x64\MTd;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Intel_SSA|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\libs\Eigen;..\..\libs\ANN\include;..\..\libs\postgres;..\..\libs\pokereval\include;..\..\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;WIN32_LEAN_AND_MEAN;MASTER;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <LevelOfStaticAnalysis>Verbose</LevelOfStaticAnalysis>
+      <ModeOfStaticAnalysis>Full</ModeOfStaticAnalysis>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>secur32.lib;ws2_32.lib;ANN.lib;poker-eval.lib;libpqd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir);..\..\libs\postgres\MTd;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Intel_SSA|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\libs\Eigen;..\..\libs\ANN\include;..\..\libs\postgres;..\..\libs\pokereval\include;..\..\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;WIN32_LEAN_AND_MEAN;MASTER;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <LevelOfStaticAnalysis>Verbose</LevelOfStaticAnalysis>
+      <ModeOfStaticAnalysis>Full</ModeOfStaticAnalysis>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>secur32.lib;ws2_32.lib;ANN.lib;poker-eval.lib;libpqd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir);..\..\libs\postgres\MTd;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\libs\eigen-3.2.0;..\..\libs\ANN\include;..\..\libs\postgres;..\..\libs\pokereval\include;..\..\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;WIN32_LEAN_AND_MEAN;MASTER;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Full</Optimization>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>secur32.lib;ws2_32.lib;ANN.lib;poker-eval.lib;libpq.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir);..\..\libs\postgres\x86\MT;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\libs\eigen-3.2.0;..\..\libs\ANN\include;..\..\libs\postgres;..\..\libs\pokereval\include;..\..\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;WIN32_LEAN_AND_MEAN;MASTER;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <Optimization>Full</Optimization>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <OmitFramePointers>true</OmitFramePointers>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>secur32.lib;ws2_32.lib;ANN.lib;poker-eval.lib;libpq.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir);..\..\libs\postgres\x64\MT\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\DB\CData.cpp" />
+    <ClCompile Include="..\..\src\DeepLearning\dA.cpp" />
+    <ClCompile Include="..\..\src\DeepLearning\DBN.cpp" />
+    <ClCompile Include="..\..\src\DeepLearning\HiddenLayer.cpp" />
+    <ClCompile Include="..\..\src\DeepLearning\LogisticRegression.cpp" />
+    <ClCompile Include="..\..\src\DeepLearning\RBM.cpp" />
+    <ClCompile Include="..\..\src\DeepLearning\SdA.cpp" />
+    <ClCompile Include="..\..\src\DeepLearning\utils.cpp" />
+    <ClCompile Include="..\..\src\Master\CDominvs.cpp" />
+    <ClCompile Include="..\..\src\Master\CGlobalVars.cpp" />
+    <ClCompile Include="..\..\src\Master\main.cpp" />
+    <ClCompile Include="..\..\src\CANN\CANN.cpp" />
+    <ClCompile Include="..\..\src\Net\CEvent\CEvent.cpp" />
+    <ClCompile Include="..\..\src\Net\CException\CException.cpp" />
+    <ClCompile Include="..\..\src\Net\CHostInfo\CHostInfo.cpp" />
+    <ClCompile Include="..\..\src\Net\CSemaphore\CSemaphore.cpp" />
+    <ClCompile Include="..\..\src\Net\CSock\CSock.cpp" />
+    <ClCompile Include="..\..\src\Net\CSock\CSockErrors.cpp" />
+    <ClCompile Include="..\..\src\Net\CThread\CThread.cpp" />
+    <ClCompile Include="..\..\src\Net\CThreadArgument\CThreadArgument.cpp" />
+    <ClCompile Include="..\..\src\Config\CIniReader.cpp" />
+    <ClCompile Include="..\..\src\Config\CIniWriter.cpp" />
+    <ClCompile Include="..\..\src\Config\CPreferences.cpp" />
+    <ClCompile Include="..\..\src\Calc\CEquityCalculator.cpp" />
+    <ClCompile Include="..\..\src\Calc\CHandDistribution.cpp" />
+    <ClCompile Include="..\..\src\Calc\CHandPotential.cpp" />
+    <ClCompile Include="..\..\src\DB\CDatabase.cpp" />
+    <ClCompile Include="..\..\src\Regression\CLogistic.cpp" />
+    <ClCompile Include="..\..\src\Regression\CPCA.cpp" />
+    <ClCompile Include="..\..\src\Regression\CQuantileRegression.cpp" />
+    <ClCompile Include="..\..\src\Regression\CRegressionObject.cpp" />
+    <ClCompile Include="..\..\src\Regression\linreg.cpp" />
+    <ClCompile Include="..\..\src\Util\Util.cpp" />
+    <ClCompile Include="..\..\src\Util\Util_Checksum.cpp" />
+    <ClCompile Include="..\..\src\Util\Util_logging.cpp" />
+    <ClCompile Include="..\..\src\Util\Util_LUT.cpp" />
+    <ClCompile Include="..\..\src\Util\Util_MagicNumbers.cpp" />
+    <ClCompile Include="..\..\src\Util\Util_mtrand.cpp" />
+    <ClCompile Include="..\..\src\StructDefines\StructDefines.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\DB\CData.h" />
+    <ClInclude Include="..\..\src\DeepLearning\dA.h" />
+    <ClInclude Include="..\..\src\DeepLearning\DBN.h" />
+    <ClInclude Include="..\..\src\DeepLearning\HiddenLayer.h" />
+    <ClInclude Include="..\..\src\DeepLearning\LogisticRegression.h" />
+    <ClInclude Include="..\..\src\DeepLearning\RBM.h" />
+    <ClInclude Include="..\..\src\DeepLearning\SdA.h" />
+    <ClInclude Include="..\..\src\DeepLearning\utils.h" />
+    <ClInclude Include="..\..\src\Master\CDominvs.h" />
+    <ClInclude Include="..\..\src\Master\CGlobalVars.h" />
+    <ClInclude Include="..\..\src\Regression\CLogistic.h" />
+    <ClInclude Include="..\..\src\Regression\CPCA.h" />
+    <ClInclude Include="..\..\src\Regression\CQuantileRegression.h" />
+    <ClInclude Include="..\..\src\Regression\CRegressionObject.h" />
+    <ClInclude Include="..\..\src\Regression\linreg.h" />
+    <ClInclude Include="..\..\src\Util\Util.h" />
+    <ClInclude Include="..\..\src\Util\Util_Checksum.h" />
+    <ClInclude Include="..\..\src\Util\Util_logging.h" />
+    <ClInclude Include="..\..\src\Util\Util_LUT.h" />
+    <ClInclude Include="..\..\src\Util\Util_MagicNumbers.h" />
+    <ClInclude Include="..\..\src\Util\Util_mtrand.h" />
+    <ClInclude Include="..\..\src\DB\CDatabase.h" />
+    <ClInclude Include="..\..\libs\postgres\libpq-fe.h" />
+    <ClInclude Include="..\..\libs\postgres\postgres_ext.h" />
+    <ClInclude Include="..\..\src\Net\CEvent\CEvent.h" />
+    <ClInclude Include="..\..\src\Net\CException\CException.h" />
+    <ClInclude Include="..\..\src\Net\CHostInfo\CHostInfo.h" />
+    <ClInclude Include="..\..\src\Net\CSemaphore\CSemaphore.h" />
+    <ClInclude Include="..\..\src\Net\CSerializer\CSerializer.hpp" />
+    <ClInclude Include="..\..\src\Net\CSock\CSock.h" />
+    <ClInclude Include="..\..\src\Net\CThread\CThread.h" />
+    <ClInclude Include="..\..\src\Net\CThreadArgument\CThreadArgument.h" />
+    <ClInclude Include="..\..\src\Config\CIniReader.h" />
+    <ClInclude Include="..\..\src\Config\CIniWriter.h" />
+    <ClInclude Include="..\..\src\Config\CPreferences.h" />
+    <ClInclude Include="..\..\src\Calc\CEquityCalculator.h" />
+    <ClInclude Include="..\..\src\Calc\CHandDistribution.h" />
+    <ClInclude Include="..\..\src\Calc\CHandPotential.h" />
+    <ClInclude Include="..\..\src\CANN\CANN.h" />
+    <ClInclude Include="..\..\src\StructDefines\structdefines.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="ann-dll.vcxproj">
+      <Project>{a7d00b21-cb9c-4bbb-8dee-51025104f867}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+    <ProjectReference Include="poker-eval.vcxproj">
+      <Project>{a4def05e-e072-493e-b282-84731d60bcf0}</Project>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Bot_DLL.cpp">
+      <Filter>Source Files\Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="Bot_General.cpp">
+      <Filter>Source Files\Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="Bot_HandHistory.cpp">
+      <Filter>Source Files\Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="Bot_PlayerState.cpp">
+      <Filter>Source Files\Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic_Strategies.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Bot_Util.cpp">
+      <Filter>Source Files\Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="Util_LUT.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util_logging.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Bot_Globalvars.cpp">
+      <Filter>Source Files\Bot\Globalvars</Filter>
+    </ClCompile>
+    <ClCompile Include="Bot_Globalvars_Cards.cpp">
+      <Filter>Source Files\Bot\Globalvars</Filter>
+    </ClCompile>
+    <ClCompile Include="Bot_Globalvars_position.cpp">
+      <Filter>Source Files\Bot\Globalvars</Filter>
+    </ClCompile>
+    <ClCompile Include="Bot_Globalvars_bets.cpp">
+      <Filter>Source Files\Bot\Globalvars</Filter>
+    </ClCompile>
+    <ClCompile Include="Bot_Globalvars_PT.cpp">
+      <Filter>Source Files\Bot\Globalvars</Filter>
+    </ClCompile>
+    <ClCompile Include="Bot_Globalvars_State.cpp">
+      <Filter>Source Files\Bot\Globalvars</Filter>
+    </ClCompile>
+    <ClCompile Include="Util_Checksum.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic_Postflop.cpp">
+      <Filter>Source Files\Logic\postflop</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic_Preflop.cpp">
+      <Filter>Source Files\Logic\preflop</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic_Preflop_1staction.cpp">
+      <Filter>Source Files\Logic\preflop</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic_Preflop_called.cpp">
+      <Filter>Source Files\Logic\preflop</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic_Preflop_raised.cpp">
+      <Filter>Source Files\Logic\preflop</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic_Postflop_utils.cpp">
+      <Filter>Source Files\Logic\postflop</Filter>
+    </ClCompile>
+    <ClCompile Include="Oracle_Actions.cpp">
+      <Filter>Source Files\Oracle</Filter>
+    </ClCompile>
+    <ClCompile Include="Bot_PTStats.cpp">
+      <Filter>Source Files\Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic_Preflop_HeadsUp.cpp">
+      <Filter>Source Files\Logic\preflop</Filter>
+    </ClCompile>
+    <ClCompile Include="Ranges.cpp">
+      <Filter>Source Files\Sherlock</Filter>
+    </ClCompile>
+    <ClCompile Include="Ranges_br2.cpp">
+      <Filter>Source Files\Sherlock</Filter>
+    </ClCompile>
+    <ClCompile Include="Ranges_br4.cpp">
+      <Filter>Source Files\Sherlock</Filter>
+    </ClCompile>
+    <ClCompile Include="Ranges_br3.cpp">
+      <Filter>Source Files\Sherlock</Filter>
+    </ClCompile>
+    <ClCompile Include="Ranges_br1.cpp">
+      <Filter>Source Files\Sherlock</Filter>
+    </ClCompile>
+    <ClCompile Include="Logic_Preflop_ThreeHanded.cpp">
+      <Filter>Source Files\Logic\preflop</Filter>
+    </ClCompile>
+    <ClCompile Include="EquityCalculator.cpp">
+      <Filter>Source Files\Calc</Filter>
+    </ClCompile>
+    <ClCompile Include="HandDistribution.cpp">
+      <Filter>Source Files\Calc</Filter>
+    </ClCompile>
+    <ClCompile Include="CANNSearch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CDatabase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CANNObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Bot_DLL.h">
+      <Filter>Header Files\Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="Bot_General.h">
+      <Filter>Header Files\Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="Bot_Globalvars.h">
+      <Filter>Header Files\Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="Bot_HandHistory.h">
+      <Filter>Header Files\Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="Bot_PlayerInfo.h">
+      <Filter>Header Files\Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="Bot_PlayerState.h">
+      <Filter>Header Files\Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="Logic.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Logic_Strategies.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Util_MagicNumbers.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Bot_Util.h">
+      <Filter>Header Files\Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="Util_LUT.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util_logging.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util_Checksum.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Logic_Postflop.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Logic_Preflop.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Oracle_Actions.h">
+      <Filter>Header Files\Oracle</Filter>
+    </ClInclude>
+    <ClInclude Include="Bot_PTStats.h">
+      <Filter>Header Files\Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="Ranges.h">
+      <Filter>Header Files\Sherlock</Filter>
+    </ClInclude>
+    <ClInclude Include="EquityCalculator.h">
+      <Filter>Header Files\Calc</Filter>
+    </ClInclude>
+    <ClInclude Include="HandDistribution.h">
+      <Filter>Header Files\Calc</Filter>
+    </ClInclude>
+    <ClInclude Include="struct_defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CANNObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CANNSearch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CDatabase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{97a560eb-1801-4705-ba04-b5bcb84feaec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{c202e4eb-ec68-406e-8b5f-d81a6ca79873}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Oracle">
+      <UniqueIdentifier>{57f6e366-38cd-4751-bcfb-6ee140cd47da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Logic">
+      <UniqueIdentifier>{37aedb02-1aa6-4e4c-b2ec-ab291afe695b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bot">
+      <UniqueIdentifier>{dd7f4d99-4c15-4059-81b0-2c920542e174}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Bot">
+      <UniqueIdentifier>{cc6715fb-198a-4b18-be8f-c708dc2c0494}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Logic">
+      <UniqueIdentifier>{2d69cfec-a342-4a56-9d13-1c1e17e45f5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Oracle">
+      <UniqueIdentifier>{dcceb03f-2b19-48c8-9e93-3b952d6c263a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Util">
+      <UniqueIdentifier>{ac634652-84ec-41db-82f3-082580a79d6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Util">
+      <UniqueIdentifier>{9cbbfcc2-91a6-4a2e-a53b-a628586a9857}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Calc">
+      <UniqueIdentifier>{768049e7-8cc6-4eb0-9a0e-abfe00844b96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Calc">
+      <UniqueIdentifier>{42f6eadd-af29-4527-897b-1635f990c7fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bot\Globalvars">
+      <UniqueIdentifier>{d148d59b-b749-45b9-a24c-5a9f38c17fc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Logic\preflop">
+      <UniqueIdentifier>{f27b7a30-20ab-41c0-ae54-68fe63244ef0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Logic\postflop">
+      <UniqueIdentifier>{ada99a7e-0ee0-4631-b89c-d51f0746aaf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Sherlock">
+      <UniqueIdentifier>{6cbcf412-8a12-4326-ac2f-18fdd4e33cd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Sherlock">
+      <UniqueIdentifier>{7020b8d1-3ff4-4e24-8ef1-e8fa43c8d130}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

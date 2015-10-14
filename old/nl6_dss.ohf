@@ -1,0 +1,72 @@
+##2010-12-25 23:14:29##
+
+##notes##
+
+
+##dll##
+kasparovbot.dll
+
+##bankroll##
+0.000000
+
+##defcon##
+0.000000
+
+##rake##
+0.000000
+
+##nit##
+10000
+
+##f$alli##
+//All-in if dll says so
+br >0 ? me_st_dec_f$dlldecision : 0 + me_re_dec == -1
+
+##f$swag##
+//Return stated wager as determined by dll
+me_re_dec > 0.0001 ? me_re_dec : 0
+
+##f$srai##
+0
+
+##f$rais##
+0
+
+##f$call##
+//Call if dll says so
+me_re_dec == 0.0001 
+
+##f$prefold##
+// Don't prefold anything 
+0
+
+##f$rebuy##
+// <=0 means: don't rebuy.
+//  >0 means: target-amount.
+// Default is: no rebuy.
+0
+
+##f$delay##
+// No delay to act. 
+0
+
+##f$chat##
+// No chat. 
+0
+
+##f$P##
+// Number of opponents for the prwin simulation.
+(nopponentsplaying<=0) ? 1 : nopponentsplaying 
+
+##f$play##
+dll$play
+
+##f$test##
+
+
+##f$debug##
+
+
+##f$dlldecision##
+dll$decision
+

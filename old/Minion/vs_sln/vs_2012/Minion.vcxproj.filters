@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Net">
+      <UniqueIdentifier>{8dbe4a77-15d2-4cb1-bd11-9837a0c1d99f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Bot">
+      <UniqueIdentifier>{001db088-a0ec-48d8-82e0-fb612c648597}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Logic">
+      <UniqueIdentifier>{62f718f2-209f-4de8-bc37-4afa2402f122}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Util">
+      <UniqueIdentifier>{d4a1cf35-629e-48c8-8c2c-3b1fc601fa24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Config">
+      <UniqueIdentifier>{eb152b53-a2e4-4edc-a745-0da77b8edc70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Calc">
+      <UniqueIdentifier>{ebb43962-3f55-4c52-92be-0dfd8266706c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Structs">
+      <UniqueIdentifier>{63b062b8-79cb-4dcf-870e-c345b067d2ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Net">
+      <UniqueIdentifier>{9f65dc1b-7034-4298-a42a-c8eb70104e8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Bot">
+      <UniqueIdentifier>{f0449ec0-b498-442e-beda-4603d48043bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Logic">
+      <UniqueIdentifier>{aa616c91-fafc-49c5-95ce-8e3d0ff59f1c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Util">
+      <UniqueIdentifier>{72802b46-6b9e-4fd6-97f6-91b3f250d5a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Config">
+      <UniqueIdentifier>{71a92dd8-6d31-4119-afb1-8c98ceb2925c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Calc">
+      <UniqueIdentifier>{023fdac3-6aba-4417-948f-a10cf34efb06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Structs">
+      <UniqueIdentifier>{025d92be-1991-4828-b789-6da560f614fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\Minion\CClientNet.cpp">
+      <Filter>Source Files\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Net\CException\CException.cpp">
+      <Filter>Source Files\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Net\CHostInfo\CHostInfo.cpp">
+      <Filter>Source Files\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Net\CLog\CLog.cpp">
+      <Filter>Source Files\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Net\CSock\CSock.cpp">
+      <Filter>Source Files\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Net\CSock\CSockErrors.cpp">
+      <Filter>Source Files\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Minion\Bot\Bot_DLL.cpp">
+      <Filter>Source Files\Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Minion\Bot\Bot_General.cpp">
+      <Filter>Source Files\Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Minion\Bot\Bot_Globalvars.cpp">
+      <Filter>Source Files\Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Minion\Bot\Bot_Globalvars_bets.cpp">
+      <Filter>Source Files\Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Minion\Bot\Bot_Globalvars_Cards.cpp">
+      <Filter>Source Files\Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Minion\Bot\Bot_Globalvars_position.cpp">
+      <Filter>Source Files\Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Minion\Bot\Bot_HandHistory.cpp">
+      <Filter>Source Files\Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Minion\Bot\Bot_PlayerState.cpp">
+      <Filter>Source Files\Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Minion\Bot\Bot_StateExtract.cpp">
+      <Filter>Source Files\Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Minion\Bot\Bot_StateInit.cpp">
+      <Filter>Source Files\Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Minion\Bot\Bot_StateUtil.cpp">
+      <Filter>Source Files\Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Minion\Logic\Logic.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Minion\Logic\Logic_Knn.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Minion\Logic\Logic_play.cpp">
+      <Filter>Source Files\Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Util\Util.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Util\Util_logging.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Util\Util_MagicNumbers.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Util\Util_mtrand.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Config\CIniReader.cpp">
+      <Filter>Source Files\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Config\CIniWriter.cpp">
+      <Filter>Source Files\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Config\CPreferences.cpp">
+      <Filter>Source Files\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Calc\CHandPotential.cpp">
+      <Filter>Source Files\Calc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\StructDefines\StructDefines.cpp">
+      <Filter>Source Files\Structs</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\Minion\CClientNet.h">
+      <Filter>Header Files\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Net\CException\CException.h">
+      <Filter>Header Files\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Net\CHostInfo\CHostInfo.h">
+      <Filter>Header Files\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Net\CLog\CLog.h">
+      <Filter>Header Files\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Net\CSerializer\CSerializer.hpp">
+      <Filter>Header Files\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Net\CSock\CSock.h">
+      <Filter>Header Files\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Minion\Bot\Bot_DLL.h">
+      <Filter>Header Files\Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Minion\Bot\Bot_General.h">
+      <Filter>Header Files\Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Minion\Bot\Bot_Globalvars.h">
+      <Filter>Header Files\Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Minion\Bot\Bot_HandHistory.h">
+      <Filter>Header Files\Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Minion\Bot\Bot_PlayerState.h">
+      <Filter>Header Files\Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Minion\Bot\Bot_State.h">
+      <Filter>Header Files\Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Minion\Logic\Logic.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Minion\Logic\Logic_Knn.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Minion\Logic\Logic_Texture.h">
+      <Filter>Header Files\Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Util\Util.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Util\Util_logging.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Util\Util_MagicNumbers.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Util\Util_mtrand.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Config\CIniReader.h">
+      <Filter>Header Files\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Config\CIniWriter.h">
+      <Filter>Header Files\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Config\CPreferences.h">
+      <Filter>Header Files\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Calc\CHandPotential.h">
+      <Filter>Header Files\Calc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\CANN\CScaling.h">
+      <Filter>Header Files\Calc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\StructDefines\structdefines.h">
+      <Filter>Header Files\Structs</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "poker-eval", "Poker.PokerEval\poker-eval.vcxproj", "{A4DEF05E-E072-493E-B282-84731D60BCF0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FunnyBot", "FunnyBot.vcxproj", "{2AB01D44-D89A-4CF4-9D97-843E4E8E80FA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A7D00B21-CB9C-4BBB-8DEE-51025104F867} = {A7D00B21-CB9C-4BBB-8DEE-51025104F867}
+		{A4DEF05E-E072-493E-B282-84731D60BCF0} = {A4DEF05E-E072-493E-B282-84731D60BCF0}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ANN", "ANN\MS_Win32\dll\dll.vcxproj", "{A7D00B21-CB9C-4BBB-8DEE-51025104F867}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		profile|Win32 = profile|Win32
+		Release|Win32 = Release|Win32
+		Template|Win32 = Template|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4DEF05E-E072-493E-B282-84731D60BCF0}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A4DEF05E-E072-493E-B282-84731D60BCF0}.Debug|Win32.Build.0 = Debug|Win32
+		{A4DEF05E-E072-493E-B282-84731D60BCF0}.profile|Win32.ActiveCfg = profile|Win32
+		{A4DEF05E-E072-493E-B282-84731D60BCF0}.profile|Win32.Build.0 = profile|Win32
+		{A4DEF05E-E072-493E-B282-84731D60BCF0}.Release|Win32.ActiveCfg = Release|Win32
+		{A4DEF05E-E072-493E-B282-84731D60BCF0}.Release|Win32.Build.0 = Release|Win32
+		{A4DEF05E-E072-493E-B282-84731D60BCF0}.Template|Win32.ActiveCfg = Template|Win32
+		{A4DEF05E-E072-493E-B282-84731D60BCF0}.Template|Win32.Build.0 = Template|Win32
+		{2AB01D44-D89A-4CF4-9D97-843E4E8E80FA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2AB01D44-D89A-4CF4-9D97-843E4E8E80FA}.Debug|Win32.Build.0 = Debug|Win32
+		{2AB01D44-D89A-4CF4-9D97-843E4E8E80FA}.profile|Win32.ActiveCfg = Release|Win32
+		{2AB01D44-D89A-4CF4-9D97-843E4E8E80FA}.profile|Win32.Build.0 = Release|Win32
+		{2AB01D44-D89A-4CF4-9D97-843E4E8E80FA}.Release|Win32.ActiveCfg = Release|Win32
+		{2AB01D44-D89A-4CF4-9D97-843E4E8E80FA}.Release|Win32.Build.0 = Release|Win32
+		{2AB01D44-D89A-4CF4-9D97-843E4E8E80FA}.Template|Win32.ActiveCfg = Release|Win32
+		{2AB01D44-D89A-4CF4-9D97-843E4E8E80FA}.Template|Win32.Build.0 = Release|Win32
+		{A7D00B21-CB9C-4BBB-8DEE-51025104F867}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A7D00B21-CB9C-4BBB-8DEE-51025104F867}.Debug|Win32.Build.0 = Debug|Win32
+		{A7D00B21-CB9C-4BBB-8DEE-51025104F867}.profile|Win32.ActiveCfg = Release|Win32
+		{A7D00B21-CB9C-4BBB-8DEE-51025104F867}.profile|Win32.Build.0 = Release|Win32
+		{A7D00B21-CB9C-4BBB-8DEE-51025104F867}.Release|Win32.ActiveCfg = Release|Win32
+		{A7D00B21-CB9C-4BBB-8DEE-51025104F867}.Release|Win32.Build.0 = Release|Win32
+		{A7D00B21-CB9C-4BBB-8DEE-51025104F867}.Template|Win32.ActiveCfg = Release|Win32
+		{A7D00B21-CB9C-4BBB-8DEE-51025104F867}.Template|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

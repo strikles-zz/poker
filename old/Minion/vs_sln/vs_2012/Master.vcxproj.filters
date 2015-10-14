@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\CANN">
+      <UniqueIdentifier>{b2938df2-a511-4a69-ba03-2cc848c9f7d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Net">
+      <UniqueIdentifier>{5f2ddcc7-aa3c-46f6-a928-526c4bcb5c24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Config">
+      <UniqueIdentifier>{bbbbd6f4-571a-48b3-8244-781e45aa9f8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Calc">
+      <UniqueIdentifier>{0d49bd0a-34f7-48a3-855c-8b80e79953d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DB">
+      <UniqueIdentifier>{4774bf5f-9b83-4d08-8edd-0e9711cc527d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Util">
+      <UniqueIdentifier>{9701cb9d-410d-49ec-976f-3de62336b062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Structs">
+      <UniqueIdentifier>{4024db38-1efb-4280-b372-ee2c66a60700}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Util">
+      <UniqueIdentifier>{b13593a6-bb9b-4960-9ea9-825d33ffd5ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DB">
+      <UniqueIdentifier>{bdd7569f-50b4-429f-b9e6-f3b8225a1a41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DB\postgres">
+      <UniqueIdentifier>{f3dee025-bbc9-41e9-b415-d03d086bd895}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Net">
+      <UniqueIdentifier>{1527a537-bc26-4b3a-afcf-c2811286dc30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Config">
+      <UniqueIdentifier>{f3446a32-30c9-46f7-b583-b553440d5510}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Calc">
+      <UniqueIdentifier>{2e194af5-01be-4c55-b78c-b37ae76826ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\CANN">
+      <UniqueIdentifier>{d1297788-00e9-4012-8e0d-ae30777aec78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Structs">
+      <UniqueIdentifier>{8ede22fe-1c73-46d3-9967-fea10b8f9185}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Regression">
+      <UniqueIdentifier>{dfedb85f-ba00-4844-a240-b2d3e29d3396}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Regression">
+      <UniqueIdentifier>{61a9adef-758e-4e7d-9356-42fabdad9c02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DeepLearning">
+      <UniqueIdentifier>{a7eac92e-82b0-4153-90f6-ed36fbd24d62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DeepLearning">
+      <UniqueIdentifier>{389e97db-735c-4fa0-a4d6-fdafa765d1be}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\Master\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\CANN\CANN.cpp">
+      <Filter>Source Files\CANN</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Net\CEvent\CEvent.cpp">
+      <Filter>Source Files\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Net\CException\CException.cpp">
+      <Filter>Source Files\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Net\CHostInfo\CHostInfo.cpp">
+      <Filter>Source Files\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Net\CSemaphore\CSemaphore.cpp">
+      <Filter>Source Files\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Net\CSock\CSock.cpp">
+      <Filter>Source Files\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Net\CSock\CSockErrors.cpp">
+      <Filter>Source Files\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Net\CThread\CThread.cpp">
+      <Filter>Source Files\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Net\CThreadArgument\CThreadArgument.cpp">
+      <Filter>Source Files\Net</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Config\CIniReader.cpp">
+      <Filter>Source Files\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Config\CIniWriter.cpp">
+      <Filter>Source Files\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Config\CPreferences.cpp">
+      <Filter>Source Files\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Calc\CEquityCalculator.cpp">
+      <Filter>Source Files\Calc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Calc\CHandDistribution.cpp">
+      <Filter>Source Files\Calc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Calc\CHandPotential.cpp">
+      <Filter>Source Files\Calc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DB\CDatabase.cpp">
+      <Filter>Source Files\DB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Util\Util.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Util\Util_Checksum.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Util\Util_logging.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Util\Util_LUT.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Util\Util_MagicNumbers.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Util\Util_mtrand.cpp">
+      <Filter>Source Files\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\StructDefines\StructDefines.cpp">
+      <Filter>Source Files\Structs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Regression\linreg.cpp">
+      <Filter>Source Files\Regression</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DB\CData.cpp">
+      <Filter>Source Files\DB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Master\CDominvs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Regression\CRegressionObject.cpp">
+      <Filter>Source Files\Regression</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DeepLearning\dA.cpp">
+      <Filter>Source Files\DeepLearning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DeepLearning\DBN.cpp">
+      <Filter>Source Files\DeepLearning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DeepLearning\HiddenLayer.cpp">
+      <Filter>Source Files\DeepLearning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DeepLearning\LogisticRegression.cpp">
+      <Filter>Source Files\DeepLearning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DeepLearning\RBM.cpp">
+      <Filter>Source Files\DeepLearning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DeepLearning\SdA.cpp">
+      <Filter>Source Files\DeepLearning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\DeepLearning\utils.cpp">
+      <Filter>Source Files\DeepLearning</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Master\CGlobalVars.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Regression\CPCA.cpp">
+      <Filter>Source Files\Regression</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Regression\CQuantileRegression.cpp">
+      <Filter>Source Files\Regression</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\Regression\CLogistic.cpp">
+      <Filter>Source Files\Regression</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\Util\Util.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Util\Util_Checksum.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Util\Util_logging.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Util\Util_LUT.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Util\Util_MagicNumbers.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Util\Util_mtrand.h">
+      <Filter>Header Files\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DB\CDatabase.h">
+      <Filter>Header Files\DB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libs\postgres\libpq-fe.h">
+      <Filter>Header Files\DB\postgres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\libs\postgres\postgres_ext.h">
+      <Filter>Header Files\DB\postgres</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Net\CEvent\CEvent.h">
+      <Filter>Header Files\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Net\CException\CException.h">
+      <Filter>Header Files\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Net\CHostInfo\CHostInfo.h">
+      <Filter>Header Files\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Net\CSemaphore\CSemaphore.h">
+      <Filter>Header Files\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Net\CSerializer\CSerializer.hpp">
+      <Filter>Header Files\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Net\CSock\CSock.h">
+      <Filter>Header Files\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Net\CThread\CThread.h">
+      <Filter>Header Files\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Net\CThreadArgument\CThreadArgument.h">
+      <Filter>Header Files\Net</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Config\CIniReader.h">
+      <Filter>Header Files\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Config\CIniWriter.h">
+      <Filter>Header Files\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Config\CPreferences.h">
+      <Filter>Header Files\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Calc\CEquityCalculator.h">
+      <Filter>Header Files\Calc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Calc\CHandDistribution.h">
+      <Filter>Header Files\Calc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Calc\CHandPotential.h">
+      <Filter>Header Files\Calc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\CANN\CANN.h">
+      <Filter>Header Files\CANN</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\StructDefines\structdefines.h">
+      <Filter>Header Files\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Regression\linreg.h">
+      <Filter>Header Files\Regression</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DB\CData.h">
+      <Filter>Header Files\DB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Master\CDominvs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Regression\CRegressionObject.h">
+      <Filter>Header Files\Regression</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DeepLearning\dA.h">
+      <Filter>Header Files\DeepLearning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DeepLearning\DBN.h">
+      <Filter>Header Files\DeepLearning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DeepLearning\HiddenLayer.h">
+      <Filter>Header Files\DeepLearning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DeepLearning\LogisticRegression.h">
+      <Filter>Header Files\DeepLearning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DeepLearning\RBM.h">
+      <Filter>Header Files\DeepLearning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DeepLearning\SdA.h">
+      <Filter>Header Files\DeepLearning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\DeepLearning\utils.h">
+      <Filter>Header Files\DeepLearning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Master\CGlobalVars.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Regression\CPCA.h">
+      <Filter>Header Files\Regression</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Regression\CQuantileRegression.h">
+      <Filter>Header Files\Regression</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\Regression\CLogistic.h">
+      <Filter>Header Files\Regression</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,81 @@
+##2012-12-13 07:40:00##
+
+##notes##
+
+
+##dll##
+Minion.dll
+
+##bankroll##
+0.000000
+
+##defcon##
+0.000000
+
+##rake##
+0.000000
+
+##nit##
+10000
+
+##f$alli##
+//Use All-in to store decision
+br > 0 ? me_st_dec_f$dlldecision : 0
+
+##f$swag##
+//Return stated wager as determined by dll
+(me_re_dec > f$c_Call && me_re_dec < balance) ? me_re_dec : (me_re_dec >= balance ? balance : 0)
+
+##f$srai##
+0
+
+##f$rais##
+0
+
+##f$call##
+//Call if dll says so
+me_re_dec > 0 ? 1 : 0
+
+##f$prefold##
+// Don't prefold anything 
+0
+
+##f$rebuy##
+// <= 0 means: don't rebuy.
+// >  0 means: target-amount.
+// Default is no rebuy.
+0
+
+##f$delay##
+// No delay to act. 
+0
+
+##f$chat##
+// No chat. 
+0
+
+##f$P##
+// Number of opponents for the prwin simulation.
+(nopponentsplaying<=0) ? 1 : nopponentsplaying 
+
+##f$play##
+//dll$play
+-1
+
+##f$test##
+0
+
+##f$debug##
+= isfinalanswer
+
+##f$dlldecision##
+dll$decision 
+
+##f$c_Call##
+//Call action
+0.0001
+
+##f$c_AllIn##
+//Allin action
+-1
+

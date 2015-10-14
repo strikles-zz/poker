@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2AB01D44-D89A-4CF4-9D97-843E4E8E80FA}</ProjectGuid>
+    <RootNamespace>kasparovbot</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectName>FunnyBot</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v100</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(SolutionDir)$(Configuration)\t_funnybot\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)bin\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(SolutionDir)bin\$(Configuration)\t_kasparovbot\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(ProjectName)</TargetName>
+    <CodeAnalysisIgnoreGeneratedCode Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</CodeAnalysisIgnoreGeneratedCode>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>Poker.PokerEval\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;_DEBUG;_WINDOWS;_USRDLL;KASPAROVBOT_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <EnablePREfast>false</EnablePREfast>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)$(ProjectName).dll</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <AdditionalDependencies>$(OutDir)poker-eval.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <CLRImageType>Default</CLRImageType>
+      <AdditionalLibraryDirectories>$(OutDir)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;KASPAROVBOT_EXPORTS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>Poker.PokerEval\include;ANN\include;postgres;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <EnablePREfast>true</EnablePREfast>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+      <AdditionalDependencies>poker-eval.lib;libpq.lib;ANN.lib;ws2_32.lib;secur32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir);$(SolutionDir)postgres;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Bot_General.cpp" />
+    <ClCompile Include="Bot_Globalvars_Cards.cpp" />
+    <ClCompile Include="Bot_Globalvars_position.cpp" />
+    <ClCompile Include="Bot_Globalvars_bets.cpp" />
+    <ClCompile Include="Bot_Globalvars_PT.cpp" />
+    <ClCompile Include="Bot_Globalvars_State.cpp" />
+    <ClCompile Include="Bot_PTStats.cpp" />
+    <ClCompile Include="Bot_Util.cpp" />
+    <ClCompile Include="CANNObject.cpp" />
+    <ClCompile Include="CANNSearch.cpp" />
+    <ClCompile Include="CDatabase.cpp" />
+    <ClCompile Include="EquityCalculator.cpp" />
+    <ClCompile Include="HandDistribution.cpp" />
+    <ClCompile Include="Logic.cpp" />
+    <ClCompile Include="Logic_Preflop_1staction.cpp" />
+    <ClCompile Include="Logic_Preflop_called.cpp" />
+    <ClCompile Include="Logic_Preflop_HeadsUp.cpp" />
+    <ClCompile Include="Logic_Preflop_raised.cpp" />
+    <ClCompile Include="Logic_Postflop.cpp" />
+    <ClCompile Include="Logic_Preflop_ThreeHanded.cpp" />
+    <ClCompile Include="Ranges_br2.cpp" />
+    <ClCompile Include="Ranges_br1.cpp" />
+    <ClCompile Include="Ranges_br4.cpp" />
+    <ClCompile Include="Ranges_br3.cpp" />
+    <ClCompile Include="Util_LUT.cpp" />
+    <ClCompile Include="Util_Checksum.cpp" />
+    <ClCompile Include="Oracle_Actions.cpp" />
+    <ClCompile Include="Util_logging.cpp" />
+    <ClCompile Include="Bot_HandHistory.cpp" />
+    <ClCompile Include="Bot_PlayerState.cpp" />
+    <ClCompile Include="Bot_DLL.cpp" />
+    <ClCompile Include="Bot_Globalvars.cpp" />
+    <ClCompile Include="Ranges.cpp" />
+    <ClCompile Include="Logic_Postflop_utils.cpp" />
+    <ClCompile Include="Logic_Preflop.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Logic_Strategies.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bot_General.h" />
+    <ClInclude Include="Bot_HandHistory.h" />
+    <ClInclude Include="Bot_PlayerState.h" />
+    <ClInclude Include="Bot_PTStats.h" />
+    <ClInclude Include="Bot_Util.h" />
+    <ClInclude Include="CANNObject.h" />
+    <ClInclude Include="CANNSearch.h" />
+    <ClInclude Include="CDatabase.h" />
+    <ClInclude Include="EquityCalculator.h" />
+    <ClInclude Include="HandDistribution.h" />
+    <ClInclude Include="Logic.h" />
+    <ClInclude Include="Logic_Preflop.h" />
+    <ClInclude Include="Logic_Postflop.h" />
+    <ClInclude Include="struct_defines.h" />
+    <ClInclude Include="Util_LUT.h" />
+    <ClInclude Include="Util_Checksum.h" />
+    <ClInclude Include="Oracle_Actions.h" />
+    <ClInclude Include="Util_logging.h" />
+    <ClInclude Include="Bot_DLL.h" />
+    <ClInclude Include="Bot_Globalvars.h" />
+    <ClInclude Include="Ranges.h" />
+    <ClInclude Include="Bot_PlayerInfo.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Logic_Strategies.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="Util_MagicNumbers.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
